@@ -218,3 +218,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# SI7011 runtime artifacts (never commit data, checkpoints, MLflow DB or adapters)
+mlflow.db
+mlruns/
+best.pt
+data_card.json
+predicciones.csv
+data/
+lora_estilo/
+sft_estilo/
+eval_tmp/
+docs/figuras/
+evento*/docs/
